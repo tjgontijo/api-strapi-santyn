@@ -55,3 +55,7 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+
+
+http://localhost:1337/api/santyns?populate[Header]opulate[Card][fields][0]=Title&populate[Card][fields][1]=link

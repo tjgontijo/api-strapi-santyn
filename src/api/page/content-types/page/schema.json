@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title",
+      "required": true
+    },
+    "Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "santyn.card"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "santyn.header"
+    }
+  }
+}
